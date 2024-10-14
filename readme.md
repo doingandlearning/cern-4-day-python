@@ -12,13 +12,13 @@ As a live course, we can go deeper on topics that are of interest, whether or no
 
 ## Timings:
 
-09.00-10.30 - Session 1
-10.30-11.00 - Break
-11.00-12.30 - Session 2
-12.30-13.30 - Lunch
-13.30-15.00 - Session 3
-15.00-15.30 - Break
-15.30-17.00 - Session 4
+- 09.00-10.30 - Session 1
+- 10.30-11.00 - Break
+- 11.00-12.30 - Session 2
+- 12.30-13.30 - Lunch
+- 13.30-15.00 - Session 3
+- 15.00-15.30 - Break
+- 15.30-17.00 - Session 4
 
 ## Outline
 
