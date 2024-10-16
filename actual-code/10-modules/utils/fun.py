@@ -2,8 +2,6 @@
 This is a very useful utility library.
 """
 
-
-
 def printer(message):
     print("I'm about to print.")
     print(message)
