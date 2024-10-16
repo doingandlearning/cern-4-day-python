@@ -12,8 +12,8 @@ class Result:
         self.angle_of_impact = angle
         self.energy = energy
         self.particle = particle
-
+        
 all_results = [
-    Result(angle=90, energy=0.01, particle="proton"),
-    Result(90, 0.01, "electron")
-]
+    Result(energy=0.01,angle=90,  particle="proton"),
+    Result(0.01, 90, "electron")
+]   
