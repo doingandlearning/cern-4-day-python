@@ -1,19 +1,20 @@
-import utils.fun as u
+import utils.fun
 # from utils import default_shape, Shape, printer
 # import random
 from random import choice
-
+from utils.other_thing import do_a_dance
 print(choice(["Pizza", "Frites"]))
-
+print("my app file is about to dance")
+do_a_dance()
 # import pandas, numpy
 
-print(u.__name__)
-print(u.__doc__)
-print(u.__file__)
-
-print(__name__)
-print(__doc__)
-print(__file__)
+# print(u.__name__)
+# print(u.__doc__)
+# print(u.__file__)
+#
+# print(__name__)
+# print(__doc__)
+# print(__file__)
 
 # print(default_shape)
 #
