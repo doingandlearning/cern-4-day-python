@@ -3,3 +3,5 @@ def add(a,b):
         raise TypeError("Must only pass numbers")
     return a + b
 
+def subtract(a,b):
+    return a - b

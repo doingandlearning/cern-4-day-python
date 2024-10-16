@@ -1,4 +1,4 @@
-from math_functions import add
+from math_functions import add, subtract
 import pytest
 
 @pytest.mark.parametrize(
@@ -44,4 +44,21 @@ def test_fails_if_adding_two_lists():
 
 
 
+@pytest.mark.parametrize("a,b,result", [
+    (1,1,0),
+    (-1,-1, 0),
+    (7, -1, 8),
+    (-1, 7, -8)
+])
+def test_subtracting_integers(a,b, result):
+    assert subtract(a,b) == result
 
+@pytest.mark.parametrize("a,b,result", [
+    (1.2,1.2,0),
+    (-1.2,-1.2, 0),
+    (7.1, -1.1, 8.2),
+    (-1.1, 7.1, -8.2),
+    (0.3, 0.2, pytest.approx(0.1))
+])
+def test_subtracting_floats(a,b, result):
+    assert subtract(a,b) == result
