@@ -1,6 +1,6 @@
 import utils.fun as u
-from utils import default_shape, Shape, printer
-import random
+# from utils import default_shape, Shape, printer
+# import random
 from random import choice
 
 print(choice(["Pizza", "Frites"]))
