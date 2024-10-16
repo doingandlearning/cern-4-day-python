@@ -15,6 +15,9 @@ class NumberGuessGameError(Exception):
     def __init__(self, message):
         super().__init__(message)
 
+    def method_one(self, arg1 = "", arg2 = "") -> str:
+        return True
+
 
 while True:
     # How to handle if the string is empty?
@@ -22,11 +25,12 @@ while True:
 
     try:
         if not user_name:
-            raise NumberGuessGameError("You need to give a name.")
+            error1 =  NumberGuessGameError("You need to give a name.")
+            error1.method_one()
         if user_name == "Error":
             raise Exception()
-    except NumberGuessGameError:
-        print("Your username was blank - try again!")
+    except NumberGuessGameError as exp:
+        print(exp)
     except Exception as e:
         print("Something unexpected has happened.")
         raise e
