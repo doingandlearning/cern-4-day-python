@@ -34,3 +34,4 @@ print(group_abonoment_type['Age'].mean())
 plt.figure(figsize=(4,4))
 group_abonoment_type['Age'].plot.hist(alpha=0.4)
 plt.show()
+ 
