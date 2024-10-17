@@ -6,7 +6,7 @@ def read_sensor_data(queue):
     while True:
         data = random.random()
         queue.append(data)
-        time.sleep(1)
+        time.sleep(0.1)
 
 data_queue = []
 thread1 = Thread(target=read_sensor_data, args=[data_queue])
